@@ -33,4 +33,4 @@ Decrease the number of abandoned carts in relation to paid orders. Increase the 
 - Explore the best options for implementing the payment process, study the existing customer journey, prepare hypotheses and present them to the team.
 - Prepare prototypes for testing hypotheses, test and make changes based on test results.
 
-![image](rot/12.png)
+![image](images/rot.png)
