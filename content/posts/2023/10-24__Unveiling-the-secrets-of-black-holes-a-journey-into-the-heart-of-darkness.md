@@ -3,7 +3,7 @@ title: "Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkne
 date: 2023-10-04T22:11:36+07:00
 slug: /unveiling-the-secrets-of-black-holes/
 description: Exploring the mysteries of black holes, the enigmatic cosmic phenomena.
-image: images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
+image: /images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
 caption: Photo by Nadine Shaabana on Unsplash.
 categories:
   - astronomy

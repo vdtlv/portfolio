@@ -1,9 +1,8 @@
 ---
 title: "Checkout update"
 date: 2021-09-01T00:03:07+07:00
-slug: /checkout-update/
 description: Discover the fascinating quest to find exoplanets, distant worlds that may resemble Earth.
-image: images/rot.png
+image: /images/rot.png
 caption: Right on Trek logo
 categories:
   - Right on Trek
@@ -13,6 +12,8 @@ tags:
   - Product
   - Design
   - Analytics
+params:
+  project: 
 draft: false
 ---
 
@@ -33,4 +34,4 @@ Decrease the number of abandoned carts in relation to paid orders. Increase the 
 - Explore the best options for implementing the payment process, study the existing customer journey, prepare hypotheses and present them to the team.
 - Prepare prototypes for testing hypotheses, test and make changes based on test results.
 
-![image](images/rot.png)
+![image](/images/rot.png)

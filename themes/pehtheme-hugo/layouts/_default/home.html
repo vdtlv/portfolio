@@ -16,7 +16,11 @@
 
         {{- with $imgfeature := resources.Get .Params.image }}
           {{ $imgfeature := $imgfeature.Resize "720x Q85" -}}
+          {{- if .Params.round }}
+          <img class="object-cover rounded-xs group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgfeature.Permalink }}" alt="{{ $.Name }}" width="{{ $imgfeature.Width }}" height="{{ $imgfeature.Height }}">
+          {{- else }}
           <img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgfeature.Permalink }}" alt="{{ $.Name }}" width="{{ $imgfeature.Width }}" height="{{ $imgfeature.Height }}">
+          {{- end }}
         {{- end }}
 
       {{- end }}
@@ -73,7 +77,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
 
-    {{ $paginator := .Paginate ( where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ $paginator := .Paginate (where .Site.RegularPages "Params.hideFromMain" "ne" true) }}
 
     {{ range $paginator.Pages }}
 

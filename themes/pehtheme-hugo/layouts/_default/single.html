@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{- partial "content/breadcrumb.html" . -}}
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+<div class="container mx-auto px-4 max-w-4xl">
 
-  <article class="md:col-span-2 prose lg:prose-lg">
+  <article class="prose lg:prose-lg mx-auto">
 
     <header class="not-prose">
       
@@ -81,7 +81,7 @@
 
     </div>
 
-    <footer id="content-footer" class="not-prose">
+    <footer id="content-footer" class="not-prose mb-8">
 
       <div id="comment" class="border p-8 bg-zinc-100 rounded-2xl">
 
@@ -134,9 +134,9 @@
 
       <div id="related-post" class="">
 
-        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2>
+        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8 ">Recommended for You</h2>
 
-        {{- $related := .Site.RegularPages.Related . | first 2 -}}
+        {{- $related := .Site.RegularPages.Related . | first 1 -}}
 
         {{- with $related -}}
 
@@ -157,12 +157,12 @@
 
   </article>
 
-  <!-- Aside -->
+  {{/*  <!-- Aside -->
   <aside class="md:col-span-1">
 
     {{- partial "content/aside.html" . -}}
     
-  </aside>
+  </aside>  */}}
 
 </div>
   
