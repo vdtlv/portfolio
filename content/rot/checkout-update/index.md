@@ -35,3 +35,20 @@ Decrease the number of abandoned carts in relation to paid orders. Increase the 
 - Prepare prototypes for testing hypotheses, test and make changes based on test results.
 
 ![image](/images/rot.png)
+
+### Results
+The calendar turned into the new component with options for year/month selector, become more convenient for users of mobile devices. Updated product card for cart, now they are more informative. New option buttons added to the design system.
+
+In the course of work, several checkout layouts were prepared and the user path was redesigned to achieve better performance in usability tests. The final result (for a certain audience of users) has become better compared to the implemented one:
+
+|           | Old Checkout | Updated Checkout | Result         |
+|-----------|--------------|------------------|----------------|
+| Success   |        58.5% |            84.2% |         +25.7% |
+| Error     |        36.4% |             8.9% |         -27.5% |
+| Mean time |     1:34 min |         0:20 min | ≈ 1 min faster |
+| Misclicks |          20% |               6% |           -14% |
+
+*The data is the result of testing with the Marvel app (3 weeks). It looks great, but the results of Google Analytics (1 month after implementation) came out a little different: the number of orders increased, but the number of abandoned carts did not change. After reviewing the problem, I found out that the most of the carts are left by users who do not want to create an account for the purchase. The service is turning into membership only platform so it is iportant to inform users about this or make a guest checkout.*
+
+
+
