@@ -1,6 +1,6 @@
 ---
 title: "Referral program update"
-date: 2022-12-01T00:07:07+07:00
+date: 2023-12-01T00:07:07+07:00
 description: Simple updates which made +30% viral users and -30% of CAC.
 image: /images/fm-ref-main.png
 caption: this is a wrong image
