@@ -1,6 +1,6 @@
 
 languageCode = 'en-us'
-title = 'portfolio'
+title = 'vdtlv portfolio'
 theme = 'pehtheme-hugo'
 
 # paginate = '6' # <- Set the desired number of posts per page 
