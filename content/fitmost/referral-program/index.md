@@ -1,9 +1,9 @@
 ---
 title: "Referral program update"
-date: 2023-12-01T00:07:07+07:00
-description: Simple updates which made +30% viral users and -30% of CAC.
+date: 2023-08-01T00:07:07+07:00
+description: Simple updates which made +30% viral users and -30% of customer acquisition cost.
 image: /images/fm-ref-main.png
-caption: this is a wrong image
+caption:
 categories:
   - fitmost
 tags:
