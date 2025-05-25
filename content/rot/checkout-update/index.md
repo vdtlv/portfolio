@@ -1,9 +1,9 @@
 ---
 title: "Checkout update"
 date: 2021-09-01T00:03:07+07:00
-description: Discover the fascinating quest to find exoplanets, distant worlds that may resemble Earth.
-image: /images/rot.png
-caption: Right on Trek logo
+description:
+image: /images/rot-ch.png
+caption: 
 categories:
   - Right on Trek
 tags:
@@ -21,6 +21,8 @@ At Right on Trek I wanted to provide a comfortable and accessible user experienc
 
 I have only one of the cases below for now. Others will be added later.
 
+![image](/images/rot-ch-0.png)
+
 ## Checkout update
 
 ### Problem
@@ -34,10 +36,10 @@ Decrease the number of abandoned carts in relation to paid orders. Increase the 
 - Explore the best options for implementing the payment process, study the existing customer journey, prepare hypotheses and present them to the team.
 - Prepare prototypes for testing hypotheses, test and make changes based on test results.
 
-![image](/images/rot.png)
-
 ### Results
 The calendar turned into the new component with options for year/month selector, become more convenient for users of mobile devices. Updated product card for cart, now they are more informative. New option buttons added to the design system.
+
+![image](/images/rot-ch-1.png)
 
 In the course of work, several checkout layouts were prepared and the user path was redesigned to achieve better performance in usability tests. The final result (for a certain audience of users) has become better compared to the implemented one:
 
@@ -50,5 +52,5 @@ In the course of work, several checkout layouts were prepared and the user path 
 
 *The data is the result of testing with the Marvel app (3 weeks). It looks great, but the results of Google Analytics (1 month after implementation) came out a little different: the number of orders increased, but the number of abandoned carts did not change. After reviewing the problem, I found out that the most of the carts are left by users who do not want to create an account for the purchase. The service is turning into membership only platform so it is iportant to inform users about this or make a guest checkout.*
 
-
-
+![image](/images/rot-ch-2.png)
+![image](/images/rot-ch-3.png)
