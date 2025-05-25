@@ -1,7 +1,7 @@
 ---
 title: "Checkout update"
 date: 2021-09-01T00:03:07+07:00
-description:
+description: Optimized checkout process reduces abandoned carts and boosts orders for Right on Trek
 image: /images/rot-ch.png
 caption: 
 categories:

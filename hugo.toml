@@ -32,15 +32,25 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 		name = 'Tags'
 		pageRef = '/tags'
 		weight = 20
-	[[menu.main]]
-		name = 'Taxonomy'
-		pageRef = '/tags/space/'
-		weight = 25
+	[[menus.main]]
+		name = 'vdtlv.me'
+		pageRef = 'https://vdtlv.me'
+		weight = 30
 
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
 [module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-  [module.mounts] # Directing the static folder to assets.
-  	source = 'assets'
-  	target = 'static'
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'

@@ -2,7 +2,7 @@
 
 <!-- Feature post by tag = "feature" -->
 
-{{- range where .Site.RegularPages "Params.tags" "intersect" (slice "feature" ) | first 1 -}}
+<!--{{- range where .Site.RegularPages "Params.tags" "intersect" (slice "feature" ) | first 1 -}}
 <section class="block md:flex relative group p-6 lg:p-10 space-y-6 md:space-x-6 my-14 bg-zinc-100 rounded-3xl hover:bg-blue-100">
   <figure class="basis-1/2 w-full aspect-video overflow-hidden rounded-2xl border">
 
@@ -36,8 +36,25 @@
 
 {{ end -}}
 
-<!-- / End feature post  -->
-
+ / End feature post  -->
+<section class="block md:flex relative group space-y- md:space-x-6 my-14">
+<h2 class=" flex text-2xl md:text-3xl lg:text-5xl font-bold mb-4"><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto">
+  Hi! I'm <!--<span class="me">
+    <picture>
+      <source srcset="/images/vdtlvpic.png" type="image/webp" />
+      <img src="/images/vdtlvpic.png" alt="" style="width: 40px;
+    height: 40px;
+    margin-bottom: -8px;
+    border-radius: 12px" />
+    </picture>
+  </span>--> Slava, product designer with over 5 years of experience in mobile and web products. Working at <span class="fm">
+    <!--<picture>
+      <source srcset="/images/fmlogo.png" type="image/webp" />
+      <img src="vdtlvpic.png" alt="" />
+    </picture>-->
+     Fitmost, also developing pet-projects in my spare time.
+</a></h2>
+</section>
 <!-- Category Post -->
 
 <section class="mb-16">
