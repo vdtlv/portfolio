@@ -1,0 +1,44 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- $webpSrc := "" -}}
+{{- $fallbackSrc := $src -}}
+
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- /* Generate WebP version */ -}}
+    {{- with .Process "webp" -}}
+      {{- $webpSrc = .RelPermalink -}}
+      {{- with $u.RawQuery -}}
+        {{- $webpSrc = printf "%s?%s" $webpSrc . -}}
+      {{- end -}}
+      {{- with $u.Fragment -}}
+        {{- $webpSrc = printf "%s#%s" $webpSrc . -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- /* Keep original format as fallback */ -}}
+    {{- $fallbackSrc = .RelPermalink -}}
+    {{- with $u.RawQuery -}}
+      {{- $fallbackSrc = printf "%s?%s" $fallbackSrc . -}}
+    {{- end -}}
+    {{- with $u.Fragment -}}
+      {{- $fallbackSrc = printf "%s#%s" $fallbackSrc . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $imgAttributes := merge .Attributes (dict "alt" .Text "title" (.Title | transform.HTMLEscape)) -}}
+
+<picture >
+  {{- if $webpSrc -}}
+  <source srcset="{{ $webpSrc }}" type="image/webp">
+  {{- end -}}
+  <img class="rounded-lg" src="{{ $fallbackSrc }}"
+    {{- range $k, $v := $imgAttributes -}}
+      {{- if $v -}}
+        {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+      {{- end -}}
+    {{- end -}}>
+</picture>
+{{- /**/ -}}
