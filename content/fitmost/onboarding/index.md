@@ -1,8 +1,8 @@
 ---
-title: "New onboarding"
+title: "The way we emphasize the advantages of service"
 date: 2024-12-01T00:07:07+07:00
-description: Lottie animations!!!
-image: /images/fm-ref-main.png
+description: Boosting conversions with onboarding made with Lottie, another onboarding and in-app stories
+image: /images/fm-onb.png
 caption:
 categories:
   - fitmost
@@ -17,11 +17,9 @@ draft: false
 Fitmost onboarding video
 
 
-third 
-
-{{< vimeo id=1087551501 allowFullScreen=true loading=lazy >}}
 
 
-fourth
+{{< media/video src="/images/onboarding-1.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" controls="false" caption="First onboarding">}}
 
-![video](/images/onboarding-0.mp4)
+{{< media/video src="/images/onboarding-2.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" controls="false" caption="Second onboarding">}}
+

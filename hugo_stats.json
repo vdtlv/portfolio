@@ -43,13 +43,15 @@
       "time",
       "title",
       "tr",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "active:bg-zinc-300",
       "after:content-['❯']",
       "after:ml-4",
       "after:opacity-30",
+      "align-center",
       "aspect-square",
       "aspect-video",
       "basis-1/3",
@@ -118,6 +120,7 @@
       "line-clamp-2",
       "max-w-4xl",
       "max-w-7xl",
+      "max-w-[300px]",
       "mb-10",
       "mb-14",
       "mb-16",
@@ -178,6 +181,7 @@
       "text-2xl",
       "text-3xl",
       "text-4xl",
+      "text-align",
       "text-center",
       "text-normal",
       "text-sm",
