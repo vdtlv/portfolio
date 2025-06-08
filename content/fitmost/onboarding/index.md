@@ -28,6 +28,8 @@ In early 2023, our product team conducted in-depth audience research to identify
 
 Although these benefits were mentioned in ads, they weren’t effectively communicated inside the app — particularly during the onboarding experience.
 
+![image](/images/fm-onb-0.png)
+
 ## Solution 1: Reimagining Onboarding
 Despite a high download-to-registration conversion rate, users were often left confused after signing up. The app took them straight to pricing plans without properly explaining the value.
 
@@ -42,7 +44,11 @@ We created a short, visually striking video to explain the concept.
 
 {{< media/video src="/images/onboarding-1.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" controls="false">}}
 
-> "It was eye-catching but lacked depth. We skipped user validation to launch a fast A/B test and see how onboarding affected metrics."
+It was eye-catching but lacked depth. We skipped user validation to launch a fast A/B test and see how onboarding affected metrics.
+
+> 💡 But the process of creating this lottie animation and the implementation was extremely interesting: I'll write an article about this journey once!
+
+![image](/images/fm-onb-1.png)
 
 #### Result:
 
@@ -65,6 +71,8 @@ Our research showed that users without a subscription rarely visited the home sc
 
 To better understand these flows, we partnered with analysts and used Celonis, a process mining tool, to map user journeys.
 
+![image](/images/fm-onb-2.png)
+
 ### Key Finding:
 
 The majority of new users passed through:
@@ -75,13 +83,19 @@ The majority of new users passed through:
 
 This insight helped us decide where to surface messaging about the benefits of a subscription.
 
-> "We placed contextual reminders and value props on studio and schedule screens, where users were most engaged."
+We placed contextual reminders and value props on studio and schedule screens, where users were most engaged.
+
+![image](/images/fm-onb-5.png)
+
+![image](/images/fm-onb-3.png)
+
+![image](/images/fm-onb-4.png)
 [add more examples/screens of how messaging was implemented and its tone/visual style]
 
 ## Outcome & Impact
 These changes led to an increase in conversion rates, especially among users who had previously bounced after registration.
 
-> [add more: specific metrics — even directional ones like “+X% lift in first purchase among users who saw onboarding” would help] [add more: any feedback from users or internal stakeholders]
+> [add more: specific metrics — even directional ones like “+X% lift in first purchase among users who saw onboarding” would help + any feedback from users or internal stakeholders]
 
 ## Learnings
 Messaging matters: Even when a product delivers value, users won’t see it without clear communication.
