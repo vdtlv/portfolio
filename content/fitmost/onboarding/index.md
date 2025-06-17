@@ -8,6 +8,10 @@ categories:
   - fitmost
 tags:
   - UX
+  - Animations
+  - Celonis
+  - Amplitude
+  - Lottie
   - Product
   - Design
   - Analytics
@@ -90,4 +94,4 @@ We placed contextual reminders and value props on studio and schedule screens, w
 ![image](/images/fm-onb-4.png)
 
 ## Outcome & Impact
-Changing and increasing the number of steps in onboarding does not affect conversion to registration. It helps the user understand the benefits of the service, but does not produce a statistically significant increase in conversion to purchase. As mentioning the benefits of subscription in different parts of the app. There is an increase in conversion rates, but it is not enough to claim that the experiment was successful. So... Wait for part 2!
+Changing and increasing the number of steps in onboarding does not affect conversion to registration. It helps the user understand the benefits of the service, but does not produce a statistically significant increase in conversion to purchase. As mentioning the benefits of subscription in different parts of the app. There is an increase in conversion rates, but it is not enough to claim that the experiment was successful. So... Wait for part 2! 
