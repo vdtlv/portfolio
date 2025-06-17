@@ -12,7 +12,7 @@ tags:
   - space 
   - exploration
   - feature
-draft: false
+draft: true
 ---
 
 The dream of reaching Mars has captured the imagination of scientists, engineers, and space enthusiasts for decades. In recent years, this dream has transformed into a tangible goal, with various space agencies and private companies embarking on missions to make it a reality. In this article, we delve into space exploration's next frontier—the race to reach Mars.

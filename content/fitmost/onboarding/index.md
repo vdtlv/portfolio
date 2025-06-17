@@ -35,8 +35,8 @@ Despite a high download-to-registration conversion rate, users were often left c
 
 We hypothesized that an onboarding flow could clarify the model and highlight Fitmost’s advantages, but we had two constraints:
 
-Risk to conversion: A poor onboarding experience might reduce registrations.
-Engagement: Users tend to skip onboarding screens quickly.
+**Risk to conversion**: A poor onboarding experience might reduce registrations.
+**Engagement**: Users tend to skip onboarding screens quickly.
 
 ### First Onboarding Version
 
@@ -46,7 +46,7 @@ We created a short, visually striking video to explain the concept.
 
 It was eye-catching but lacked depth. We skipped user validation to launch a fast A/B test and see how onboarding affected metrics.
 
-> 💡 But the process of creating this lottie animation and the implementation was extremely interesting: I'll write an article about this journey once!
+*The process of creating this lottie animation and the implementation was extremely interesting: I'll write an article about this journey once!*
 
 ![image](/images/fm-onb-1.png)
 
@@ -57,13 +57,11 @@ It was eye-catching but lacked depth. We skipped user validation to launch a fas
 
 ### Second Onboarding Version
 
-Based on follow-up user testing, we focused the second version on job stories — specific use cases like “trying new studios nearby” or “training with flexibility.”
-
-We also added a job story block to reinforce the message even after onboarding — a lightweight solution that didn’t require deep development.
+Based on follow-up user testing, we focused the second version on job stories – specific use cases like “trying new studios nearby” or “training with flexibility.” Slightly highlighted how point system works and its benefits behind ordinary way of booking. 
 
 {{< media/video src="/images/onboarding-2.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" controls="false" caption="Second onboarding">}}
 
-> [add more: how these job stories were presented visually, and how users responded to them]
+We also added a job story block to reinforce the message even after onboarding – a lightweight solution that didn’t require deep development.
 
 ## Solution 2: Surfacing Subscription Value Throughout the Experience
 
@@ -90,20 +88,6 @@ We placed contextual reminders and value props on studio and schedule screens, w
 ![image](/images/fm-onb-3.png)
 
 ![image](/images/fm-onb-4.png)
-[add more examples/screens of how messaging was implemented and its tone/visual style]
 
 ## Outcome & Impact
-These changes led to an increase in conversion rates, especially among users who had previously bounced after registration.
-
-> [add more: specific metrics — even directional ones like “+X% lift in first purchase among users who saw onboarding” would help + any feedback from users or internal stakeholders]
-
-## Learnings
-Messaging matters: Even when a product delivers value, users won’t see it without clear communication.
-Testing over assumption: Launching quickly and testing iteratively gave us confidence and helped avoid overengineering.
-Right message, right moment: Surfacing benefits where users are naturally browsing (not just at onboarding) was key to improving conversion.
-more about celonis
-
-## Next Steps
-Expand contextual messaging throughout more flows like booking and cancellation.
-Personalize onboarding further based on user intent or location.
-[add more: anything in progress or backlog]
+Changing and increasing the number of steps in onboarding does not affect conversion to registration. It helps the user understand the benefits of the service, but does not produce a statistically significant increase in conversion to purchase. As mentioning the benefits of subscription in different parts of the app. There is an increase in conversion rates, but it is not enough to claim that the experiment was successful. So... Wait for part 2!
