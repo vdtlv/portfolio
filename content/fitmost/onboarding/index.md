@@ -46,13 +46,13 @@ We hypothesized that an onboarding flow could clarify the model and highlight Fi
 
 We created a short, visually striking video to explain the concept.
 
-{{< media/video src="/images/onboarding-1.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" controls="false">}}
+{{< media/video src="/images/onboarding-1.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" >}}
 
 It was eye-catching but lacked depth. We skipped user validation to launch a fast A/B test and see how onboarding affected metrics.
 
 *The process of creating this lottie animation and the implementation was extremely interesting: I'll write an article about this journey once!*
 
-![image](/images/fm-onb-1.png)
+![process of animation reation](/images/fm-onb-1.png)
 
 #### Result:
 

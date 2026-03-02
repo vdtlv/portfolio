@@ -4,13 +4,13 @@
 
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
 
-  <section class="md:col-span-2">
+  <section class="md:col-span-3">
 
     <h2 class="text-3xl font-bold mb-2">{{ .Title | humanize }}</h2>
     
-    <p class="mb-10 text-zinc-500">{{ .Params.description }} </p>
+    <p class="mb-10 md:max-w-2/3 text-zinc-500">{{ .Params.description }} </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-y-10 gap-x-4">
 
       {{ range ( .Paginator 6 ).Pages }}
       
@@ -34,11 +34,11 @@
   
   </section>
 
-  <aside class="md:col-span-1">
+  <!-- <aside class="md:col-span-1">
 
     {{- partial "content/aside.html" . -}}
     
-  </aside>
+  </aside> -->
 
   </div>
 

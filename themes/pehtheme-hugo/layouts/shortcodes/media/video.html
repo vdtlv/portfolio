@@ -12,7 +12,7 @@
 {{- end -}}
 {{- $caption := $.Get "caption" -}}
 {{- $preload := $.Get "preload" | default "metadata" -}}
-{{- $controls := $.Get "controls" | default true -}}
+{{- $controls := eq ($.Get "controls") "true" -}}
 {{- $muted := $.Get "muted" -}}
 {{- $loop := $.Get "loop" -}}
 {{- $autoplay := $.Get "autoplay" -}}
